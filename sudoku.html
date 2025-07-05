@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Game</title>
+    
+    <link rel="stylesheet" href="sudoku.css">
+    <script src="sudoku.js"></script>
+    </head>
+    <body>
+
+    <div class="bg-blur"></div>
+    <div class="con">
+        
+        <h1>SUDOKU</h1>
+        <nav>
+    <div class="box">
+        <a href="#about">ABOUT THIS GAME</a>
+        <a href="#rules">THE RULES</a>
+        <a href="#game">PLAY THE GAME</a>
+    </div>
+</nav>
+<section class="top">
+<h3>INTERESTED IN SUDOKU?</h3>
+<h4>You've arrived at the right location!</h4>
+</section>
+<section id="about">
+    <div class="container1">
+        <h3>About Sudoku</h3>
+        <p>Sudoku is a popular logic-based number puzzle that challenges players to fill a grid with digits so that certain conditions are met. Although it uses numbers, Sudoku is not a math game — no calculations are needed. Instead, it requires reasoning, logic, and pattern recognition.Sudoku became widely popular in the early 2000s, though its origins trace back to number puzzles in 18th-century Europe and a modern form first published in Japan in the 1980s. Today, Sudoku appears in newspapers, apps, websites, and competitive puzzle events worldwide.</p>
+            <h4>Why People Love Sudoku</h4>
+<pre>                  It improves focus and logical thinking. It can be played casually or competitively. It offers different difficulty levels, from easy to expert.</pre>
+        </p>
+    </div>
+</section>
+<section id="rules">
+    <div class="container2">
+        <h3>Rules to play Sudoku</h3>
+        <h4>Sudoku is a logic-based puzzle game with simple but strict rules. Here's how to play:</h4>
+        <pre><h4>Objective:</h4>
+1.Fill a 9×9 grid with digits 1 to 9 so that:
+2.Each row has every digit from 1 to 9 exactly once.
+3.Each column has every digit from 1 to 9 exactly once.
+4.Each 3×3 box (subgrid) has every digit from 1 to 9 exactly once.</pre>
+        <pre><h4>Basic Rules:</h4>
+1.No Repetition:
+A number must not repeat in any row, column, or 3×3 box.
+
+2.Use Only Digits 1–9:
+You can only use digits from 1 to 9 (no letters, symbols, or zeros).
+
+3.Fixed Numbers Can’t Be Changed:
+The puzzle starts with some numbers already filled in. These are clues and cannot be erased or changed.
+
+4.Use Logic, Not Guessing:
+A well-designed Sudoku puzzle always has one solution that can be reached using pure logic—no guessing needed.
+
+5.Work Through Possibilities:
+It helps to look at rows, columns, and boxes to see which numbers are missing and what options are valid for each empty cell.
+        </pre>
+    </div>
+</section>
+<section id="game">
+    <div class="container3">
+        <h3>Play Sudoku</h3>
+        <hr>
+        <h2 id="errors">0</h2>
+        <!--Main board sudoku ko-->
+        <div id="board"></div>
+        <br>
+        <div id="digits"></div> <!--esma <div id="1" class="number">1</div> harek choti 9X9 garnu ko satta we apply for look in js-->
+    </div>
+</section>
+</div>
+    </body>
+</html>
